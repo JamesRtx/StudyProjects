@@ -56,7 +56,7 @@ class emailattribute {
     public String getpassword(){return this.password;}
     public String getemail(){return this.email;}
     public int getmailcapacity(){return this.mailCapacity;}
-    public void showinfo(){
+    public  void showinfo(){
         System.out.println("User Name :"+ this.Firstname +" " +this.lastname);
         System.out.println("User Email: "+this.email);
         System.out.println("User password : "+this.password );
